@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
+# Use bcrypt to hash passwords
+gem 'bcrypt', git:'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 # Use rails controller testing
 gem 'rails-controller-testing'
 # Use bootstrap for the layout
